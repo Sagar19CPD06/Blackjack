@@ -1,0 +1,43 @@
+.container-1{
+    border: 10px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('https://wallpaperaccess.com/full/4237304.png') center;
+    color: #ffff;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px; 
+    height: 450px;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    margin: 0px 5px 0px 5px;
+}
+
+.flex-blackjack-row-2 div{
+    padding: 10px;
+}
+
+
