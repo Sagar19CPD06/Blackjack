@@ -50,7 +50,6 @@ function blackjackHit() {
     showCard(card, YOU);
     updateScore(card, YOU);
     showScore(YOU);
-    console.log(YOU["score"]);
   }
 }
 
@@ -67,8 +66,6 @@ function showCard(card, activePlayer) {
     hitSound.play();
   }
 }
-
-console.log(blackjackGame["turnOver"]);
 
 function blackjackDeal() {
   if (blackjackGame["turnsOver"] === true) {
