@@ -29,7 +29,7 @@ let blackjackGame = {
 };
 const YOU = blackjackGame["you"];
 const DEALER = blackjackGame["dealer"];
-const hitSound = new Audio("static/sounds/swish.mp3");
+const hitSound = new Audio("static/sounds/swih.mp3");
 const winSound = new Audio("static/sounds/cash.mp3");
 const lossSound = new Audio("static/sounds/aww.mp3");
 
